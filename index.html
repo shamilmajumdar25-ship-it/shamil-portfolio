@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamil Majumdar | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #2980b9;
+            --bg: #f4f7f6;
+            --text: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 { margin: 0; font-size: 2rem; }
+        h2 { color: var(--accent); border-bottom: 2px solid #eee; padding-bottom: 0.5rem; }
+        
+        .job { margin-bottom: 1.5rem; }
+        .job-title { font-weight: bold; font-size: 1.2rem; color: var(--primary); }
+        .date { font-style: italic; color: #7f8c8d; font-size: 0.9rem; }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #ecf0f1;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="your-photo.jpg" alt="Shamil Majumdar" class="profile-img">
+    <h1>Shamil Majumdar</h1>
+    <p>BBS, MBA | Operations & Sales Professional</p>
+</header>
+
+<div class="container">
+    <section class="card">
+        <h2>About Me</h2>
+        <p>I am a dedicated professional with a background in Business Administration (BBS & MBA). My expertise spans across branch operations, pharmaceutical sales, and data management. I am committed to delivering excellence through strategic management and technical proficiency.</p>
+    </section>
+
+    <section class="card">
+        <h2>Experience</h2>
+        <div class="job">
+            <div class="job-title">Medical Information Officer</div>
+            <div class="date">Popular Pharmaceuticals PLC | 2025 - 2026</div>
+            <p>Managed scientific communications and sales strategies within the pharmaceutical sector.</p>
+        </div>
+        
+        <div class="job">
+            <div class="job-title">Assistant Branch Manager</div>
+            <div class="date">Bodo Shaheb | 2014 - 2016</div>
+            <p>Supervised operations and handled technical data entry using Oracle software for design specifications.</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Education</h2>
+        <ul>
+            <li>Master of Business Administration (MBA)</li>
+            <li>Bachelor of Business Studies (BBS)</li>
+            <li>HSC - Chattogram Board</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill-tag">Branch Operations</span>
+            <span class="skill-tag">Sales & Marketing</span>
+            <span class="skill-tag">Oracle ERP</span>
+            <span class="skill-tag">Data Management</span>
+            <span class="skill-tag">Retail Management</span>
+        </div>
+    </section>
+
+    <div style="text-align: center;">
+        <a href="https://www.linkedin.com/in/shamil-majumdar" class="btn">Connect on LinkedIn</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Shamil Majumdar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
